@@ -1,0 +1,23 @@
+{
+  "name": "text-columns-extension",
+  "version": "0.10.1",
+  "description": "Reformats selected text to use columns of a more readable width.",
+  "main": "''",
+  "scripts": {
+    "jsdoc": "jsdoc -c jsdoc.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shapkarin/text-columns.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shapkarin/text-columns/issues"
+  },
+  "homepage": "https://github.com/shapkarin/text-columns#readme",
+  "devDependencies": {
+    "jsdoc": "^4.0.2"
+  }
+}

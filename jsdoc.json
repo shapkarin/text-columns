@@ -1,0 +1,24 @@
+{
+  "source": {
+    "include": ["./"],
+    "exclude": ["node_modules", "jsdoc"],
+    "includePattern": ".+\\.(js|jsx)$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "plugins": [
+    "node_modules/jsdoc-babel"
+  ],
+  "babel": {
+    "presets": ["@babel/preset-react"]
+  },
+  "opts": {
+    "encoding": "utf8",
+    "destination": "jsdoc/",
+    "recurse": true,
+    "verbose": true
+  },
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": true
+  }
+}
