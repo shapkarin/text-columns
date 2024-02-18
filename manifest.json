@@ -1,6 +1,6 @@
 {
 	"name": "Text into Multiple Columns",
-	"version": "0.10.0",
+	"version": "0.10.1",
 	"manifest_version": 3,
 	"description": "Reformats selected text to use columns of a more readable width.",
 	"permissions": [
