@@ -10,5 +10,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# ignore jsdoc build folder
-# /jsdoc
+# TODO: complete that and inignore jsdoc build folder
+/jsdoc
+
+package-lock.json
